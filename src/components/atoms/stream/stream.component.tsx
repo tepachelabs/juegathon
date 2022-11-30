@@ -8,7 +8,7 @@ interface StreamProps {
 export const Stream: FC<StreamProps> = ({ id, parent = 'juegathon.com' }) => {
   return (
     <iframe
-      src={ `https://player.twitch.tv/?${ id }&parent=${ parent }` }
+      src={ `https://player.twitch.tv/?channel=${ id }&parent=${ parent }` }
       height="400"
       width="100%"
       allowFullScreen>

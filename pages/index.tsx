@@ -18,7 +18,7 @@ export default function Home() {
         <H2>Jugando por una causa</H2>
       </section>
 
-      <Stream id="juegathon" parent="https://juegathon.vercel.app/"/>
+      <Stream id="juegathon" parent="juegathon.vercel.app"/>
 
       <Donations/>
 
