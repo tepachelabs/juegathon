@@ -1,0 +1,39 @@
+{
+  "faq": [
+    {
+      "id": "1",
+      "question": "¿Qué es el juegathon?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "2",
+      "question": "¿Porqué existe el juegathon?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "3",
+      "question": "¿Qué hacen exactamente con el dinero?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "4",
+      "question": "¿Dónde es el juegathon?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "5",
+      "question": "¿Cómo puedo ayudar?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "6",
+      "question": "¿Ustedes que ganan con el juegathon?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "id": "7",
+      "question": "¿Son el mejor stream de caridad en el norte?",
+      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    }
+  ]
+}

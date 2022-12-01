@@ -1,0 +1,68 @@
+{
+  "schedules": {
+    "saturday": [
+      {
+        "person": "Juan Perez",
+        "game": "Super Mario Bros",
+        "time": "10:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Josefina Lopez",
+        "game": "Pacman Legends",
+        "time": "11:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Gaby Martinez",
+        "game": "Sonic the Hedgehog",
+        "time": "13:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Fernando Quintero",
+        "game": "Sonic the Hedgehog",
+        "time": "15:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Andrea Jimenez",
+        "game": "Sonic the Hedgehog",
+        "time": "18:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      }
+    ],
+    "sunday": [
+      {
+        "person": "Juan Perez",
+        "game": "Super Mario Bros",
+        "time": "1:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Josefina Lopez",
+        "game": "Pacman Legends",
+        "time": "2:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Gaby Martinez",
+        "game": "Sonic the Hedgehog",
+        "time": "3:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Fernando Quintero",
+        "game": "Sonic the Hedgehog",
+        "time": "5:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      },
+      {
+        "person": "Andrea Jimenez",
+        "game": "Sonic the Hedgehog",
+        "time": "6:00",
+        "thumbnail": "https://styles.redditmedia.com/t5_2te15/styles/communityIcon_akivar16v4r71.png"
+      }
+    ]
+  }
+}
