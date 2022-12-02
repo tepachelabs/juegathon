@@ -15,6 +15,16 @@ export const EntryData = styled.div`
     text-overflow: fade;
   }
 
+  .text-nowrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+
+    @media (min-width: 420px) {
+      width: auto;
+    }
+  }
+
   &:after {
     content: " ";
     bottom: 0;
@@ -29,6 +39,7 @@ export const EntryData = styled.div`
   }
 
   @media (min-width: 576px) {
+    max-width: initial;
     width: calc(100% - 2em);
   }
 `;

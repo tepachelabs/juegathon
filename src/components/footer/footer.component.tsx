@@ -15,28 +15,28 @@ export const Footer = () => {
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3">
-            <a href="src/components/page#">
+            <a href="https://www.instagram.com/batosjugando/">
               <svg className="bi" width="24" height="24">
                 <FiInstagram />
               </svg>
             </a>
           </li>
           <li className="ms-3">
-            <a href="src/components/page#">
+            <a href="https://www.facebook.com/batosquejuegan">
               <svg className="bi" width="24" height="24">
                 <FiFacebook />
               </svg>
             </a>
           </li>
           <li className="ms-3">
-            <a href="src/components/page#">
+            <a href="https://www.twitch.tv/juegathon">
               <svg className="bi" width="24" height="24">
                 <FiTwitch />
               </svg>
             </a>
           </li>
           <li className="ms-3">
-            <a href="src/components/page#">
+            <a href="https://www.youtube.com/channel/UCU40Vk0baBrI998m5aGyZ2w">
               <svg className="bi" width="24" height="24">
                 <FiYoutube />
               </svg>

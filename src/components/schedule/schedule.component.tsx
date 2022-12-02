@@ -51,11 +51,11 @@ export const Schedule: FC<ScheduleProps> = ({ className }) => {
       <div className="col-12">
         <H1>Programa</H1>
       </div>
-      <div className="col-12">
+      <div className="col-12 my-4">
         <H2>Sábado</H2>
         <Chart schedules={saturday} />
       </div>
-      <div className="col-12">
+      <div className="col-12 my-4">
         <H2>Domingo</H2>
         <Chart schedules={sunday} />
       </div>
@@ -68,14 +68,14 @@ const Chart: FC<ChartProps> = ({ schedules }) => {
     <section className="row">
       {schedules.map((schedule) => (
         <Entry key={schedule.time} className="col-lg-6 d-flex my-2">
-          <EntryData className="lh-sm">
-            <TextBody noMargin condensed darker>
+          <EntryData className="d-flex lh-sm justify-content-center flex-column">
+            <TextBody className="text-nowrap" noMargin condensed darker>
               {schedule.game}
             </TextBody>
             <TextBody noMargin condensed darker>
               {formatTime(schedule.time)}
             </TextBody>
-            <TextBody noMargin condensed darker>
+            <TextBody className="text-nowrap" noMargin condensed darker>
               {schedule.person}
             </TextBody>
           </EntryData>
