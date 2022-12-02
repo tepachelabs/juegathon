@@ -1,7 +1,8 @@
 import React, { FC } from "react";
 import Head from "next/head";
-import { Container } from "./page.styles";
+
 import { Footer } from "../footer";
+import { Container } from "./page.styles";
 
 export interface PageMeta {
   title?: string;
@@ -17,7 +18,7 @@ interface PageProps {
 export const Page: FC<PageProps> = ({ children, meta, title }) => {
   return (
     <>
-      <Container className="container my-3 pt-1 pb-5 px-5">
+      <Container className="container">
         {meta && (
           <Head>
             <title>{meta.title}</title>

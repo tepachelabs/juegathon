@@ -1,13 +1,16 @@
-import React, { FC } from "react";
+import React from "react";
 import { FiFacebook, FiInstagram, FiTwitch, FiYoutube } from "react-icons/fi";
 import styled from "@emotion/styled";
+import { TextBody } from "../typography";
 
 export const Footer = () => {
   return (
     <div className="container">
       <StyledFooter className="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4">
         <div className="col-md-4 d-flex align-items-center">
-          <span className="mb-3 mb-md-0">© 2022 TepacheLabs</span>
+          <TextBody className="mb-3 mb-md-0" darker sm>
+            © 2022 TepacheLabs
+          </TextBody>
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

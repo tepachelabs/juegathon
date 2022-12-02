@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { H1, H2 } from "../typography";
+import { H1, H2, TextBody } from "../typography";
 import data from "./faq.json";
 import { Accordion } from "./faq.styles";
 
@@ -9,15 +9,19 @@ interface Question {
   answer: string;
 }
 
+interface FaqProps {
+  className?: string;
+}
+
 interface AccordionItemProps {
   question: Question;
 }
 
-export const Faq: FC = () => {
+export const Faq: FC<FaqProps> = ({ className }) => {
   const { faq } = data;
 
   return (
-    <div className="row">
+    <div className={`row ${className}`}>
       <div className="col-12">
         <H1>Preguntas frecuentes</H1>
       </div>
@@ -45,7 +49,7 @@ const AccordionItem: FC<AccordionItemProps> = ({ question }) => {
           aria-expanded="true"
           aria-controls={`collapse-${question.id}`}
         >
-          {question.question}
+          <TextBody darker>{question.question}</TextBody>
         </button>
       </h2>
       <div
@@ -54,7 +58,9 @@ const AccordionItem: FC<AccordionItemProps> = ({ question }) => {
         aria-labelledby={`heading-${question.id}`}
         data-bs-parent="#faq-accordion"
       >
-        <div className="accordion-body">{question.answer}</div>
+        <div className="accordion-body">
+          <TextBody darker>{question.answer}</TextBody>
+        </div>
       </div>
     </div>
   );

@@ -1,13 +1,23 @@
 import React, { FC } from "react";
-import { H1, H2, H3 } from "../typography";
+import { H1, H2, TextBody } from "../typography";
 import data from "./schedule.json";
-import styled from "@emotion/styled";
+import {
+  Entry,
+  EntryAvatar,
+  EntryData,
+  EntryThumbnail,
+} from "./schedule.styles";
 
 interface Schedule {
   person: string;
   game: string;
   time: string;
   thumbnail: string;
+  avatar: string;
+}
+
+interface ScheduleProps {
+  className?: string;
 }
 
 interface ChartProps {
@@ -16,17 +26,28 @@ interface ChartProps {
 
 const formatTime = (time: string) => {
   const [hours] = time.split(":");
-  if (parseInt(hours) > 12) {
-    return `${parseInt(hours) - 12} PM`;
+  const hour = parseInt(hours, 10);
+
+  if (hour === 12) {
+    return "12 PM";
   }
-  return `${hours} AM`;
+
+  if (hour === 0) {
+    return "12 AM";
+  }
+
+  if (hour > 12) {
+    return `${hour - 12} PM`;
+  }
+
+  return `${hour} AM`;
 };
 
-export const Schedule: FC = () => {
+export const Schedule: FC<ScheduleProps> = ({ className }) => {
   const { saturday, sunday } = data.schedules;
 
   return (
-    <div className="row">
+    <div className={`row ${className}`}>
       <div className="col-12">
         <H1>Programa</H1>
       </div>
@@ -42,27 +63,26 @@ export const Schedule: FC = () => {
   );
 };
 
-const StyledTable = styled.table`
-  --bs-table-color: #6eba6c;
-`;
-
 const Chart: FC<ChartProps> = ({ schedules }) => {
   return (
-    <StyledTable className="table table-borderless">
-      <tbody>
-        {schedules.map((schedule) => (
-          <tr key={schedule.time}>
-            <td>
-              <H3>{formatTime(schedule.time)}</H3>
-            </td>
-            <td>
-              <img src={schedule.thumbnail} alt={schedule.game} width={64} />
-            </td>
-            <td>{schedule.person}</td>
-            <td>{schedule.game}</td>
-          </tr>
-        ))}
-      </tbody>
-    </StyledTable>
+    <section className="row">
+      {schedules.map((schedule) => (
+        <Entry key={schedule.time} className="col-lg-6 d-flex my-2">
+          <EntryData className="lh-sm">
+            <TextBody noMargin condensed darker>
+              {schedule.game}
+            </TextBody>
+            <TextBody noMargin condensed darker>
+              {formatTime(schedule.time)}
+            </TextBody>
+            <TextBody noMargin condensed darker>
+              {schedule.person}
+            </TextBody>
+          </EntryData>
+          <EntryThumbnail src={schedule.thumbnail} />
+          <EntryAvatar src={schedule.avatar} />
+        </Entry>
+      ))}
+    </section>
   );
 };
