@@ -36,7 +36,7 @@ export const Hero: FC<HeroProps> = ({ className }) => {
           >
             Twitch
           </Button>
-          <Button className="btn-lg px-4 me-md-2" href="#" secondary>
+          <Button className="btn-lg px-4 me-md-2" href="#faq" secondary>
             Información
           </Button>
         </div>

@@ -21,7 +21,7 @@ export const Faq: FC<FaqProps> = ({ className }) => {
   const { faq } = data;
 
   return (
-    <div className={`row ${className}`}>
+    <div id="faq" className={`row ${className}`}>
       <div className="col-12">
         <H1>Preguntas frecuentes</H1>
       </div>
