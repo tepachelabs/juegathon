@@ -22,7 +22,7 @@ export const Page: FC<PageProps> = ({ children, meta, title }) => {
         {meta && (
           <Head>
             <title>{meta.title}</title>
-            <meta name="description" content={meta.description} />
+            <meta name="description" content={meta.description} key="desc" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
         )}
