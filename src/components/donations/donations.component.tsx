@@ -1,14 +1,17 @@
 import React, { FC } from "react";
-import { Button } from "../button/button.component";
+import { Button } from "../button";
+import { TextBody } from "../typography";
 
-export const Donations: FC = () => {
+interface DonationsProps {
+  className?: string;
+}
+
+export const Donations: FC<DonationsProps> = ({ className }) => {
   return (
-    <div className="row text-center">
-      <div className="col">
-        <h3 className="d-inline m-4">Necesitamos tu ayuda</h3>
-        <Button className="btn btn-primary btn-lg px-4 me-md-2">
-          Haz tu donación
-        </Button>
+    <div className={`row text-center ${className}`}>
+      <div className="col d-flex flex-column flex-sm-row justify-content-md-center align-items-sm-center">
+        <TextBody>Participa con nosotros:</TextBody>
+        <Button className="btn-lg mt-2 mt-md-0 ms-sm-3">Haz tu donación</Button>
       </div>
     </div>
   );
