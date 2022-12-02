@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 import { Page, PageMeta } from "../src/components";
 import { LiveTemplate } from "../src/templates/live.template";
@@ -14,7 +15,12 @@ const meta: PageMeta = {
 };
 
 export default function Home() {
+  const router = useRouter();
+  const { live } = router.query;
+
   return (
-    <Page meta={meta}>{isLive ? <LiveTemplate /> : <OffSeasonTemplate />}</Page>
+    <Page meta={meta}>
+      {isLive || live ? <LiveTemplate /> : <OffSeasonTemplate />}
+    </Page>
   );
 }
