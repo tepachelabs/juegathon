@@ -6,7 +6,7 @@ interface DonationsProps {
   className?: string;
 }
 
-const link = "https://paypal.me/juegathon";
+const link = "https://streamelements.com/juegathon/tip";
 
 export const Donations: FC<DonationsProps> = ({ className }) => {
   return (
