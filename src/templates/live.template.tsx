@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Donations, Faq, H1, Schedule, Stream } from "../components";
 
-const twitchHost = "juegathon.vercel.app";
+const twitchHost = "juegathon.com";
 
 export const LiveTemplate = () => {
   return (
