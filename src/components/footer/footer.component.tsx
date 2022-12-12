@@ -9,7 +9,7 @@ export const Footer = () => {
       <StyledFooter className="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4">
         <div className="col-md-4 d-flex align-items-center">
           <TextBody className="mb-3 mb-md-0" darker sm>
-            © 2022 TepacheLabs
+            © 2019-{new Date().getFullYear()} TepacheLabs
           </TextBody>
         </div>
 

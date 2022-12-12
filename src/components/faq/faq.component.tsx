@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { H1, H2, TextBody } from "../typography";
+import { H1, TextBody } from "../typography";
 import data from "./faq.json";
 import { Accordion } from "./faq.styles";
 

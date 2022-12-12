@@ -1,0 +1,24 @@
+{
+  "press": [
+    {
+      "id": "1",
+      "title": "Expresso Hermosillo",
+      "link": "https://www.expreso.com.mx/noticias/hermosillo/juegathon-en-hermosillo-gamers-en-apoyo-a-casas-hogar/168573"
+    },
+    {
+      "id": "2",
+      "title": "Expresso Sonora",
+      "link": "https://www.expreso.com.mx/noticias/sonora/que-es-el-juegathon/168449"
+    },
+    {
+      "id": "3",
+      "title": "Meganoticias",
+      "link": "https://www.meganoticias.mx/hermosillo/noticia/jovenes-organizan-juegathon-a-beneficio-de-casas-hogares/380630"
+    },
+    {
+      "id": "4",
+      "title": "Uniradio Noticias",
+      "link": "https://www.uniradioinforma.com/noticias/hermosillo/692036/con-torneo-de-videojuegos-buscan-recaudar-donativos-para-casa-hogar.html"
+    }
+  ]
+}

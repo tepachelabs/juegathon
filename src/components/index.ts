@@ -4,6 +4,7 @@ export * from "./faq";
 export * from "./footer";
 export * from "./hero";
 export * from "./page";
+export * from "./press";
 export * from "./schedule";
 export * from "./stream";
 export * from "./typography";
