@@ -3,37 +3,37 @@
     {
       "id": "1",
       "question": "¿Qué es el juegathon?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "Jugamos durante 24hrs seguidas para recaudar fondos. Transmitimos en vivo por Twitch. El dinero recaudado se destina a la compra de juguetes y despensas a beneficio de distintas casas hogar en Hermosillo."
     },
     {
       "id": "2",
       "question": "¿Porqué existe el juegathon?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "Un día lo soñamos, al otro lo empezamos a hacer. El juegathon nació de la necesidad de ayudar a los niños de Hermosillo, y de la pasión por los videojuegos. El juegathon es una iniciativa de la comunidad gamer de Hermosillo."
     },
     {
       "id": "3",
       "question": "¿Qué hacen exactamente con el dinero?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "Compramos despensas y juguetes para donarlos a casas hogar ubicadas en Hermosillo. Procuramos que las casas a las que apoyamos no tengan grandes apoyos gubernamentales o privados, para que el dinero recaudado sea de mayor ayuda."
     },
     {
       "id": "4",
       "question": "¿Dónde es el juegathon?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "Hermosillo, Sonora, México. Culto al Perro Café nos ha abierto sus puertas para que podamos jugar y recaudar fondos. ¡Gracias Culto al Perro Café!"
     },
     {
       "id": "5",
       "question": "¿Cómo puedo ayudar?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "Hay muchas maneras de ayudar. Puedes donar dinero, puedes compartir nuestro mensaje, puedes venir y jugar un rato con nosotros. ¡Cualquier ayuda es bienvenida! Contáctanos via email o redes sociales para más información."
     },
     {
       "id": "6",
       "question": "¿Ustedes que ganan con el juegathon?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "answer": "El juegathon es una iniciativa de la comunidad gamer de Hermosillo. No hay ganancias, todo el dinero recaudado se destina a la compra de juguetes y despensas para donar a casas hogar en Hermosillo. Queremos lograr cambios positivos en nuestra comunidad a través de los videojuegos."
     },
     {
       "id": "7",
-      "question": "¿Son el mejor stream de caridad en el norte?",
-      "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "question": "¿Cómo puedo contactarles?",
+      "answer": "Búscanos en Facebook, Twitter, Instagram, Twitch, YouTube, o envíanos un email a hola[at]juegathon.com"
     }
   ]
 }
