@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { H1, H2, TextBody } from "../typography";
-import data from "./schedule.json";
 import {
   Entry,
   EntryAvatar,
@@ -18,6 +17,8 @@ interface Schedule {
 
 interface ScheduleProps {
   className?: string;
+  saturday: Schedule[];
+  sunday: Schedule[];
 }
 
 interface ChartProps {
@@ -43,9 +44,7 @@ const formatTime = (time: string) => {
   return `${hour} AM`;
 };
 
-export const Schedule: FC<ScheduleProps> = ({ className }) => {
-  const { saturday, sunday } = data.schedules;
-
+export const Schedule: FC<ScheduleProps> = ({ className, saturday, sunday }) => {
   return (
     <div className={`row ${className}`}>
       <div className="col-12">

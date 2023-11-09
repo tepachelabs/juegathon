@@ -1,12 +1,11 @@
 import styled from "@emotion/styled";
-import { PRIMARY_YELLOW } from "../../style-tokens";
 
 export const Entry = styled.div`
   position: relative;
 `;
 
 export const EntryData = styled.div`
-  background-color: ${PRIMARY_YELLOW};
+  background-color: ${({ theme }) => theme.color.primary};
   padding: 1em 0.5em;
   position: relative;
   width: 100%;
@@ -28,8 +27,8 @@ export const EntryData = styled.div`
   &:after {
     content: " ";
     bottom: 0;
-    border-bottom: 4em solid ${PRIMARY_YELLOW};
-    border-left: 1em solid ${PRIMARY_YELLOW};
+    border-bottom: 4em solid ${({ theme }) => theme.color.primary};
+    border-left: 1em solid ${({ theme }) => theme.color.primary};
     border-top: 4em solid transparent;
     border-right: 1em solid transparent;
     height: 100%;

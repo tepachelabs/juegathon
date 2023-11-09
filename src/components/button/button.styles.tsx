@@ -1,34 +1,27 @@
-import React from "react";
 import styled from "@emotion/styled";
-import {
-  LIGHT_GREEN,
-  PRIMARY_GREEN,
-  PRIMARY_YELLOW,
-  robotoMono,
-} from "../../style-tokens";
 
 export const StyledButton = styled.a`
   --bs-btn-font-weight: 700;
-  --bs-btn-color: ${PRIMARY_GREEN};
-  --bs-btn-bg: ${PRIMARY_YELLOW};
-  --bs-btn-border-color: ${PRIMARY_YELLOW};
+  --bs-btn-color: ${({ theme }) => theme.color.background};
+  --bs-btn-bg: ${({ theme }) => theme.color.primary};
+  --bs-btn-border-color: ${({ theme }) => theme.color.primary};
   --bs-btn-hover-bg: transparent;
-  --bs-btn-hover-border-color: ${PRIMARY_YELLOW};
+  --bs-btn-hover-border-color: ${({ theme }) => theme.color.primary};
 
-  ${robotoMono.style}
+  ${({ theme }) => theme.fonts.body}
 
   text-transform: uppercase;
 `;
 
 export const StyledSecondaryButton = styled.a`
   --bs-btn-font-weight: 700;
-  --bs-btn-color: ${LIGHT_GREEN};
+  --bs-btn-color: ${({ theme }) => theme.color.lightBackground};
   --bs-btn-bg: transparent;
-  --bs-btn-border-color: ${LIGHT_GREEN};
-  --bs-btn-hover-color: ${PRIMARY_GREEN};
-  --bs-btn-hover-bg: ${LIGHT_GREEN};
+  --bs-btn-border-color: ${({ theme }) => theme.color.lightBackground};
+  --bs-btn-hover-color: ${({ theme }) => theme.color.background};
+  --bs-btn-hover-bg: ${({ theme }) => theme.color.lightBackground};
 
-  ${robotoMono.style}
+  ${({ theme }) => theme.fonts.body}
 
   text-transform: uppercase;
 `;

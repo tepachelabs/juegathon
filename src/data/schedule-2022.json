@@ -1,0 +1,113 @@
+{
+  "schedules": {
+    "saturday": [
+      {
+        "person": "@batosjugando",
+        "game": "Retas de smash",
+        "time": "10:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/smash.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/batos.webp"
+      },
+      {
+        "person": "@apoptosisbzr",
+        "game": "Sims 4",
+        "time": "12:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/sims4.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/apoptosis.webp"
+      },
+      {
+        "person": "@l_delare",
+        "game": "Splatoon 3",
+        "time": "14:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/splatoon3.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/ldelare.webp"
+      },
+      {
+        "person": "@gatogordocc",
+        "game": "Megaman",
+        "time": "16:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/megaman.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/gatogordo.webp"
+      },
+      {
+        "person": "@jmsalcido",
+        "game": "Jackbox Party",
+        "time": "17:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/jackbox.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/jmsalcido.webp"
+      },
+      {
+        "person": "@marzelda33",
+        "game": "Fortnite",
+        "time": "18:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/fortnite.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/marzelda.webp"
+      },
+      {
+        "person": "@rurouni_muppet",
+        "game": "Resident Evil 3",
+        "time": "20:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/re3.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/muppet.webp"
+      },
+      {
+        "person": "@adexiosmusic",
+        "game": "Smash Ultimate",
+        "time": "22:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/smash.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/adexios.webp"
+      }
+    ],
+    "sunday": [
+      {
+        "person": "@8aclau",
+        "game": "HUE",
+        "time": "0:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/hue.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/clau.webp"
+      },
+      {
+        "person": "@8aclau",
+        "game": "Overcooked",
+        "time": "1:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/overcooked.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/clau.webp"
+      },
+      {
+        "person": "@pedrodelaree",
+        "game": "Tunic",
+        "time": "2:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/tunic.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/delaree.webp"
+      },
+      {
+        "person": "@avionamarillo",
+        "game": "Cuphead",
+        "time": "4:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/cuphead.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/avion.webp"
+      },
+      {
+        "person": "@luanibaal",
+        "game": "Death Road to Canada",
+        "time": "6:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/drtc.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/anibal.webp"
+      },
+      {
+        "person": "@jmsalcido",
+        "game": "Elden Ring",
+        "time": "8:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/elden.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/jmsalcido.webp"
+      },
+      {
+        "person": "@pozoletv",
+        "game": "Cult of the Lamb",
+        "time": "9:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/cult.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/pozole.webp"
+      }
+    ]
+  }
+}

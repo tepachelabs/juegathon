@@ -1,6 +1,7 @@
 import React from "react";
 import { FiFacebook, FiInstagram, FiTwitch, FiYoutube } from "react-icons/fi";
 import styled from "@emotion/styled";
+
 import { TextBody } from "../typography";
 
 export const Footer = () => {
@@ -49,7 +50,7 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-  color: #13493e;
+  color: ${({ theme }) => theme.color.background};
   margin: 0 auto;
   max-width: 960px;
 `;

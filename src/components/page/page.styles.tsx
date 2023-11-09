@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: #13493e;
+  background-color: ${({ theme }) => theme.color.background};
   border-radius: 2em 2em 0 0;
-  color: #f8d31b;
+  color: ${({ theme }) => theme.color.primary};
   margin: 8px 8px 0;
   padding: 0 2em;
   width: auto;

@@ -1,0 +1,22 @@
+{
+  "schedules": {
+    "saturday": [
+      {
+        "person": "@juegathon",
+        "game": "Próximamente...",
+        "time": "10:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/smash.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/batos.webp"
+      }
+    ],
+    "sunday": [
+      {
+        "person": "@juegathon",
+        "game": "Próximamente...",
+        "time": "0:00",
+        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/hue.webp",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/batos.webp"
+      }
+    ]
+  }
+}
