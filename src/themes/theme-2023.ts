@@ -1,5 +1,5 @@
 import { Theme } from "@emotion/react";
-import { Roboto_Mono, Squada_One } from "@next/font/google";
+import { Roboto_Mono, Squada_One } from "next/font/google";
 
 export const robotoMono = Roboto_Mono({
   weight: "variable",
