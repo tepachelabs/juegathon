@@ -15,7 +15,7 @@ export const LiveTemplate = () => {
           <Image
             src={ logo.src }
             className="d-block mx-auto img-fluid"
-            alt="Juegathon 2022"
+            alt="Juegathon 2023"
             width="120"
             height="75"
             priority
