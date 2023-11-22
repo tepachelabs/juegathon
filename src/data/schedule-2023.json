@@ -2,20 +2,90 @@
   "schedules": {
     "saturday": [
       {
-        "person": "@juegathon",
-        "game": "Próximamente...",
+        "person": "@tepachelabs",
+        "game": "Inicio y Retas",
         "time": "10:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/games/videogames.jpg",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/tepache.jpg"
+      },
+      {
+        "person": "@PauColosio",
+        "game": "Just Dance!",
+        "time": "12:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/o73mvy2zf9mkutv8qh4e.jpg",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/PauColosio.png"
+      },
+      {
+        "person": "@lades_eada",
+        "game": "Turnip Boy Commits Tax Evasion",
+        "time": "14:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/games/turnipboy.png",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/games/ivonne.jpg"
+      },
+      {
+        "person": "@jag_comics_twitch",
+        "game": "Gartic Phone",
+        "time": "16:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/games/gartic.png",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/games/jag.jpg"
+      },
+      {
+        "person": "@alumarex",
+        "game": "Jackbox Party",
+        "time": "18:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/games/overwatch2.jpg",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/alumarex.jpg"
+      },
+      {
+        "person": "@lalencio",
+        "game": "Fortnite",
+        "time": "20:00",
         "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/smash.webp",
-        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/batos.webp"
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/avatar.jpg"
+      },
+      {
+        "person": "@AdexiosMusic",
+        "game": "Street Fighter 6",
+        "time": "22:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/sf6.jpg",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/adexios.jpg"
       }
     ],
     "sunday": [
       {
-        "person": "@juegathon",
-        "game": "Próximamente...",
+        "person": "@quechiloo",
+        "game": "Uno de miedo",
         "time": "0:00",
-        "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/hue.webp",
-        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/batos.webp"
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/horrorgame.jpg",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/quechiloo.jpg"
+      },
+      {
+        "person": "@PedroDeLaRee",
+        "game": "Katana Zero",
+        "time": "2:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/katanazero.png",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/delaree.webp"
+      },
+      {
+        "person": "@luanibaal",
+        "game": "Rocket League",
+        "time": "4:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/rocketleague.jpg",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/anibal.webp"
+      },
+      {
+        "person": "@jmsalcido",
+        "game": "Donkey Kong Country",
+        "time": "6:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/dkcountry.jpg",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/jmsalcido.webp"
+      },
+      {
+        "person": "@pozoletv",
+        "game": "LO DECIDIMOS EL DIA",
+        "time": "8:00",
+        "thumbnail": "",
+        "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/pozole.webp"
       }
     ]
   }

@@ -38,7 +38,7 @@ export default function Home(props: any) {
     <ThemeProvider theme={ theme2023 }>
       <Page meta={ meta }>
         { config.live || live ? <LiveTemplate/> :
-          <Hero className="pt-4 mb-4" year={ 2023 } dateLabel="24 y 25 de Noviembre"/> }
+          <Hero className="pt-4 mb-4" year={ 2023 } dateLabel="25 y 26 de Noviembre"/> }
         <Schedule className="my-5" saturday={ saturday } sunday={ sunday }/>
         <Faq className="mt-5 pb-5"/>
         <Press className="mt-5 pb-5"/>
