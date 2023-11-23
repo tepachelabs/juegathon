@@ -31,14 +31,14 @@
       },
       {
         "person": "@alumarex",
-        "game": "Jackbox Party",
+        "game": "Overwatch 2",
         "time": "18:00",
         "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_fill,h_160,w_160/juegathon2023/games/overwatch2.jpg",
         "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/alumarex.jpg"
       },
       {
-        "person": "@lalencio",
-        "game": "Fortnite",
+        "person": "@lalenciio",
+        "game": "Smash Bros",
         "time": "20:00",
         "thumbnail": "https://res.cloudinary.com/clips/image/upload/c_thumb,h_128,w_160/v1669938608/juegathon-22/games/smash.webp",
         "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/avatar.jpg"
@@ -82,10 +82,17 @@
       },
       {
         "person": "@pozoletv",
-        "game": "LO DECIDIMOS EL DIA",
+        "game": "EVOLAND",
         "time": "8:00",
-        "thumbnail": "",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/evoland.png",
         "avatar": "https://res.cloudinary.com/clips/image/upload/c_scale,h_128,w_128/v1669941834/juegathon-22/people/pozole.webp"
+      },
+      {
+        "person": "@avionamarillo",
+        "game": "Retas Mario Kartucho",
+        "time": "10:00",
+        "thumbnail": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_thumb,h_128,w_160/juegathon2023/games/mariokart.png",
+        "avatar": "https://res.cloudinary.com/dtqlnsvrs/image/upload/c_scale,h_128,w_128/juegathon2023/people/avionamarillo.jpg"
       }
     ]
   }
