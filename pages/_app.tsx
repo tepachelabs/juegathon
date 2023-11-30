@@ -7,7 +7,7 @@ import { PostHogProvider } from 'posthog-js/react'
 import { useRouter } from "next/router";
 import "../styles/globals.css";
 
-const posthogClientToken = process.env.NEXT_PUBLIC_POSTHOG_CLIENT_TOKEN || "";
+const posthogClientToken = process.env.NEXT_PUBLIC_POSTHOG_KEY || "";
 
 // Check that PostHog is client-side
 if (typeof window !== 'undefined') {
