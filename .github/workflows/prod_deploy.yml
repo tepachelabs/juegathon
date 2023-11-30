@@ -48,33 +48,33 @@ jobs:
           token: "${{ secrets.APP_TOKEN }}"
           image: ${{ env.IMAGE_URL }}
 
-#   notify:
-#     name: notify
-#     needs: [ build ]
-#     if: always()
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: send discord message
-#         env:
-#           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-#         uses: Ilshidur/action-discord@master
-#         if: always()
-#         with:
-#           args: 'Action finished on {{EVENT_PAYLOAD.repository.full_name}}'
-#       - name: send telegram message
-#         uses: appleboy/telegram-action@master
-#         if: always()
-#         with:
-#           to: ${{ secrets.TELEGRAM_TO }}
-#           token: ${{ secrets.TELEGRAM_TOKEN }}
-#           message: |
-#             ✅ *A build/deploy job finished*
-#             ▶️ *Status: ${{ job.status }}*
-#             #️⃣ Run # ${{github.run_number}}. Event type: *${{ github.event_name }}*
-#             🤡 Developer: *${{github.actor}}*
-#             💬 Commit message: ${{ github.event.commits[0].message }}
-#             🔗 Href: https://github.com/${{github.repository}}
-
-#             ✨ See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
-#           format: markdown
-#           disable_web_page_preview: "True"
+  notify:
+    name: notify
+    needs: [ build ]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: send discord message
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        if: always()
+        with:
+          args: 'Action finished on {{EVENT_PAYLOAD.repository.full_name}}'
+      - name: send telegram message
+        uses: appleboy/telegram-action@master
+        if: always()
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            ✅ *A build/deploy job finished*
+            ▶️ *Status: ${{ job.status }}*
+            #️⃣ Run # ${{github.run_number}}. Event type: *${{ github.event_name }}*
+            🤡 Developer: *${{github.actor}}*
+            💬 Commit message: ${{ github.event.commits[0].message }}
+            🔗 Href: https://github.com/${{github.repository}}
+            
+            ✨ See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+          format: markdown
+          disable_web_page_preview: "True"
