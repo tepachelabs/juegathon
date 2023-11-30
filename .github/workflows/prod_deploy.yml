@@ -65,7 +65,7 @@ jobs:
         uses: appleboy/telegram-action@master
         if: always()
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
+          to: ${{ secrets.TELEGRAM_GROUP_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
             ✅ *A build/deploy job finished*
