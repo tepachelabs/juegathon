@@ -6,7 +6,7 @@ import {useRouter} from "next/router";
 import {ThemeProvider} from "@emotion/react";
 import {useFeatureFlagEnabled} from "posthog-js/react";
 
-import {Faq, Hero, Page, PageMeta, Press, Schedule} from "../src/components";
+import {Contact, Faq, Hero, Page, PageMeta, Press, Schedule} from "../src/components";
 import {LiveTemplate} from "../src/templates/live.template";
 import PostHogClient from "../src/posthog";
 import {getYearData, getYearTheme} from "../src/data/data";
@@ -54,6 +54,7 @@ export default function Home(props: InferGetServerSidePropsType<typeof getServer
         {isLive ? <LiveTemplate/> :
           <Hero className="pt-4 mb-4" year={currentYear} dateLabel={dateLabelText}/>}
         {showSchedule && <Schedule className="my-5" saturday={saturday} sunday={sunday}/>}
+        <Contact className="mt-5 pb-5"/>
         <Faq className="mt-5 pb-5"/>
         <Press className="mt-5 pb-5"/>
       </Page>

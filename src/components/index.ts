@@ -8,3 +8,4 @@ export * from "./press";
 export * from "./schedule";
 export * from "./stream";
 export * from "./typography";
+export * from "./contact";
