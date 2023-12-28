@@ -1,5 +1,9 @@
-import {FC, Fragment} from "react";
+import {FC} from "react";
 import {SubmitHandler, useForm} from "react-hook-form";
+
+import {Button} from "../button";
+import {ErrorMessage, Form, FormLabel, Input, TextArea} from "../form";
+import {H1} from "../typography";
 
 interface ContactProps {
   className?: string;
@@ -22,26 +26,28 @@ export const Contact: FC<ContactProps> = (props) => {
     formState: {errors}
   } = useForm<FormInput>()
 
-  const onSubmit: SubmitHandler<FormInput> = data => console.log(data);
+  const onSubmit: SubmitHandler<FormInput> = (data, event) => {
+    console.log(data)
+  };
 
   return (
     <div className={`row ${className}`}>
-      <h1>Contactanos</h1>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        <label htmlFor="name">Nombre</label>
-        <input type="text" id="name" {...register("name", { required: true })}/>
-        {errors.name && <span>El nombre es requerido</span>}
+      <H1>Contactanos</H1>
+      <Form onSubmit={handleSubmit(onSubmit)}>
+        <FormLabel htmlFor="name">Nombre</FormLabel>
+        <Input type="text" id="name" {...register("name", {required: true})}/>
+        {errors.name && <ErrorMessage>El nombre es requerido</ErrorMessage>}
 
-        <label htmlFor="email">Correo</label>
-        <input type="email" id="email" {...register("email", { required: true })}/>
-        {errors.email && <span>El email es requerido</span>}
+        <FormLabel htmlFor="email">Correo</FormLabel>
+        <Input type="email" id="email" {...register("email", {required: true})}/>
+        {errors.email && <ErrorMessage>El email es requerido</ErrorMessage>}
 
-        <label htmlFor="message">Mensaje</label>
-        <textarea id="message" {...register("message", { required: true })}/>
-        {errors.message && <span>El mensaje es requerido</span>}
+        <FormLabel htmlFor="message">Mensaje</FormLabel>
+        <TextArea id="message" {...register("message", {required: true})} rows={7}/>
+        {errors.message && <ErrorMessage>El mensaje es requerido</ErrorMessage>}
 
-        <button type="submit">Enviar</button>
-      </form>
+        <Button className="btn-lg px-4 me-md-2" type="submit" onClick={handleSubmit(onSubmit)}>Enviar</Button>
+      </Form>
     </div>
   )
 }

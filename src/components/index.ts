@@ -2,6 +2,7 @@ export * from "./button";
 export * from "./donations";
 export * from "./faq";
 export * from "./footer";
+export * from "./form";
 export * from "./hero";
 export * from "./page";
 export * from "./press";
