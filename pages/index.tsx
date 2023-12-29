@@ -46,15 +46,15 @@ export default function Home(props: InferGetServerSidePropsType<typeof getServer
   const {saturday, sunday} = getYearData(currentYear).schedules;
 
   const showSchedule = saturday.length > 0 && sunday.length > 0;
-  const dateLabelText = "Status: Comprando las despensas";
+  const dateLabelText = "Status: Planeando 2024";
 
   return (
     <ThemeProvider theme={getYearTheme(theme)}>
       <Page meta={meta}>
         {isLive ? <LiveTemplate/> :
           <Hero className="pt-4 mb-4" year={currentYear} dateLabel={dateLabelText}/>}
-        {showSchedule && <Schedule className="my-5" saturday={saturday} sunday={sunday}/>}
         <Contact className="mt-5 pb-5"/>
+        {showSchedule && <Schedule className="my-5" saturday={saturday} sunday={sunday}/>}
         <Faq className="mt-5 pb-5"/>
         <Press className="mt-5 pb-5"/>
       </Page>
