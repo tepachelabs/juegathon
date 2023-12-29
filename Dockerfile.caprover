@@ -1,11 +1,11 @@
-FROM node:18-alpine AS deps
+FROM node:20-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 COPY package.json package-lock.json ./
 RUN  npm install
 
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -13,16 +13,22 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED 1
 ARG NEXT_PUBLIC_POSTHOG_KEY=$NEXT_PUBLIC_POSTHOG_KEY
 ARG NEXT_PUBLIC_POSTHOG_HOST=$NEXT_PUBLIC_POSTHOG_HOST
+ARG CONTACT_URL=$CONTACT_URL
+ARG JWT_SECRET_KEY=$JWT_SECRET_KEY
+ARG JWT_APP_CLAIM=$JWT_APP_CLAIM
 
 RUN npm run build
 
-FROM node:18-alpine AS runner
+FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
 ENV NEXT_TELEMETRY_DISABLED 1
 ARG NEXT_PUBLIC_POSTHOG_KEY=$NEXT_PUBLIC_POSTHOG_KEY
 ARG NEXT_PUBLIC_POSTHOG_HOST=$NEXT_PUBLIC_POSTHOG_HOST
+ARG CONTACT_URL=$CONTACT_URL
+ARG JWT_SECRET_KEY=$JWT_SECRET_KEY
+ARG JWT_APP_CLAIM=$JWT_APP_CLAIM
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
